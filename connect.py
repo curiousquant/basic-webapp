@@ -1,9 +1,6 @@
 import psycopg2
-from config import load_config
-from urllib.parse import urlparse
 
 def connect():
-    
     pg_connection_dict = {
         'dbname': 'postgresdb_czir',
         'user': 'admin',
